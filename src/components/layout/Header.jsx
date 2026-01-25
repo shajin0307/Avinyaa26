@@ -79,8 +79,8 @@ const Header = ({ isDark, toggleTheme }) => {
   const navLinks = [
     { name: 'Home', path: '/', isExternal: false },
     { name: 'Events', path: '/events', isExternal: false },
-    { name: 'Gallery', path: '/gallery', isExternal: false },
     { name: 'About', path: '/about', isExternal: false },
+    { name: 'Gallery', path: '/gallery', isExternal: false },
     { name: 'Contact', path: '/contact', isExternal: false },
     { name: 'Bus Routes', path: 'https://drive.google.com/file/d/1dxfnsXIVJ6Oqinj0QTel7pDP7BKIUNez/view?usp=drivesdk', isExternal: true }
   ];
@@ -91,7 +91,7 @@ const Header = ({ isDark, toggleTheme }) => {
         <div className="max-w-7xl mx-auto px-6 md:px-16 flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-4 group cursor-pointer relative z-50">
-            <Logo className="h-10 md:h-12 w-auto object-contain" />
+            <Logo className="h-10 md:h-12 w-auto object-contain" isDark={isDark} />
           </Link>
 
           {/* Desktop Navigation */}

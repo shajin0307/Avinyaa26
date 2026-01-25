@@ -84,12 +84,13 @@ Rules:
         'Y BINDULATHA', 'POLAVARAM CHETHANA', 'C AATHIL FELIX', 'AKASH S', 'AVINASH M',
         'HARI R', 'HARI VENKAT D', 'KARTHICK R'
       ],
-      time: '80 Minutes',
+      time: '2 Hours',
       team: 'Individual',
       image: retroDecode,
       icon: <Code2 className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe75DrfRSPNR2qDFsQ50eYZdr-_X5FhFD7TmETTyvgFHCfC-A/viewform',
-      accent: 'from-pink-600 to-rose-900'
+      accent: 'from-pink-600 to-rose-900',
+      venue: 'AI103'
     },
     {
       id: 'tech-2',
@@ -116,12 +117,13 @@ Rules:
         'LAKSHAN ADHITHYAA', 'PARTHIV', 'PRASAD', 'PUNITH SAI', 'RAVI KIRAN',
         'RITESH CHOWDARY', 'RITHISH KUMAR', 'SAI KAMAL', 'YOGESHWARAN'
       ],
-      time: '45 Minutes',
+      time: '2 Hours',
       team: 'Max 3 Members',
       image: promptVerse,
       icon: <Cpu className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdhEl0RhoMrO9aZaO1VNc-Hn_AJ6gohGetuwcedX1EZ6XloaQ/viewform',
-      accent: 'from-fuchsia-600 to-purple-900'
+      accent: 'from-fuchsia-600 to-purple-900',
+      venue: 'AI205'
     },
     {
       id: 'tech-3',
@@ -151,12 +153,13 @@ Rules & Regulations:
         'Mulla Thanuja', 'Muthukuru Vaishno Tejaswini', 'Puvvadi Lakshmi Bargavi',
         'C Santhi Swaroop', 'Shaik Mohammad Hafruddin', 'Suda Abhi Satwika', 'Vankavaram Preethi'
       ],
-      time: '02:00 PM',
+      time: '2 Hours',
       team: 'Teams of 2-4',
       image: mindMatrix,
       icon: <Bot className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/1pvzTJ4XwNGtTqsgZ7EC7vTH-Y0IBPemKy8x1UJ6e1UM/viewform?edit_requested=true',
-      accent: 'from-amber-500 to-orange-700'
+      accent: 'from-amber-500 to-orange-700',
+      venue: 'AI102'
     },
     {
       id: 'tech-4',
@@ -197,12 +200,13 @@ Judging Criteria:
         'Mathinshack Meshack', 'Tharun S', 'Nivetha M', 'Jeeva Kumar', 'Pooja',
         'Mulaka Thanuja', 'Neha', 'Shivanne', 'Leema', 'Pavithra'
       ],
-      time: '2 Hours (12m / Team)',
+      time: '2 Hours',
       team: 'Max 3 Members',
       image: innoPaperx,
       icon: <ShieldCheck className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/1PJ4jKQj8kSrB_JElISd9nXqfn5wkn2j55ajQs9Nj-o4/viewform?edit_requested=true',
-      accent: 'from-slate-400 to-slate-600'
+      accent: 'from-slate-400 to-slate-600',
+      venue: 'AI204'
     },
     {
       id: 'non-tech-1',
@@ -224,12 +228,13 @@ RULES:
         'Yuvaraj', 'Aswini', 'Girish', 'Haridharshini', 'Harini', 'Lakshitha', 'Mogith',
         'Monish', 'Padma Priya', 'Ramachandru', 'Sabharish', 'Sudeep', 'Thulasi', 'Velan'
       ],
-      time: '5 Minutes',
+      time: '2 Hours',
       team: 'Teams of 2',
       image: havoc,
       icon: <Dumbbell className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/1V2_l_zhrJFFpotI31D5mvzXAxTvfdTFsp4dpK7oq9rA/viewform?edit_requested=true',
-      accent: 'from-red-600 to-red-900'
+      accent: 'from-red-600 to-red-900',
+      venue: 'AIML Seminar Hall'
     },
     {
       id: 'non-tech-2',
@@ -256,12 +261,13 @@ REQUIREMENTS:
         'Jasir', 'Haneesh', 'Aashish', 'Nizam', 'Bhuvan Sai', 'Harsha', 'Hari Haran',
         'Vibhav', 'Nishant', 'Munish'
       ],
-      time: '1.5 Hours',
-      team: '5 Players (+1 Sub)',
+      time: '2 Hours',
+      team: '5 Players',
       image: valorant,
       icon: <Gamepad2 className="w-6 h-6" />,
       registerLink: 'https://docs.google.com/forms/d/1EW3Io66WNvds-QSviNAHJ72DZL8Cjm3V2F_jmMRXQgA/viewform?edit_requested=true',
-      accent: 'from-rose-600 to-purple-900'
+      accent: 'from-rose-600 to-purple-900',
+      venue: 'Computer Lab'
     }
   ];
 
@@ -313,7 +319,7 @@ REQUIREMENTS:
           className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border mb-8 ${isDark ? 'border-rose-400/30 bg-rose-900/80 shadow-[0_0_20px_rgba(225,29,72,0.2)]' : 'border-rose-200 bg-white/90 shadow-sm'}`}
         >
           <Flag className={`w-4 h-4 ${isDark ? 'text-rose-300' : 'text-rose-600'}`} />
-          <span className={`text-xs font-bold tracking-[0.25em] uppercase ${isDark ? 'text-rose-100' : 'text-rose-900'}`}>National Level Symposium</span>
+          <span className={`text-xs font-bold tracking-[0.25em] uppercase ${isDark ? 'text-rose-100' : 'text-rose-900'}`}>3rd National Level Symposium</span>
         </motion.div>
 
         <motion.h1
@@ -482,7 +488,7 @@ REQUIREMENTS:
                   </div>
                   <div className="bg-white/5 p-4 rounded-xl border border-white/5">
                     <div className="flex items-center gap-2 text-rose-300 text-xs font-bold uppercase tracking-wider mb-1">
-                      <Clock className="w-4 h-4" /> Time
+                      <Clock className="w-4 h-4" /> Duration
                     </div>
                     <div className="text-2xl font-bold text-white">{selectedEvent.time}</div>
                   </div>
@@ -490,7 +496,7 @@ REQUIREMENTS:
                     <div className="flex items-center gap-2 text-rose-300 text-xs font-bold uppercase tracking-wider mb-1">
                       <MapPin className="w-4 h-4" /> Venue
                     </div>
-                    <div className="text-2xl font-bold text-white">Main Block</div>
+                    <div className="text-2xl font-bold text-white">{selectedEvent.venue}</div>
                   </div>
                 </div>
 

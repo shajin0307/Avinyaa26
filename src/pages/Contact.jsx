@@ -72,18 +72,18 @@ const Contact = () => {
                 <ContactCard name="Shajin S P" role="Vice President" isDark={isDark} />
                 <ContactCard name="Mohammed Burhan K" role="Secretary" isDark={isDark} />
                 <ContactCard name="Mahadiya Maheen K F" role="Joint Secretary" isDark={isDark} />
-                <ContactCard name="Ezhumalai A" role="Treasurer" isDark={isDark} />
+                <ContactCard name="Yuvaraj R" role="Treasurer" isDark={isDark} />
               </div>
             </div>
 
             {/* Office Bearers */}
             <div className="pb-4 border-b border-white/10">
-              <h4 className="text-xs font-bold uppercase tracking-widest text-rose-500 mb-4 mt-4">Office Barrier</h4>
+              <h4 className="text-xs font-bold uppercase tracking-widest text-rose-500 mb-4 mt-4">Office Bearers</h4>
               <div className="grid gap-4">
-                <ContactCard name="Mathin Shack" role="Office Barrier" isDark={isDark} />
-                <ContactCard name="Jothishwaran" role="Office Barrier" isDark={isDark} />
-                <ContactCard name="Lakshmi Shri" role="Office Barrier" isDark={isDark} />
-                <ContactCard name="Kamalika" role="Office Barrier" isDark={isDark} />
+                <ContactCard name="Mathin Shack" role="Office Bearers" isDark={isDark} />
+                <ContactCard name="Jothishwaran" role="Office Bearers" isDark={isDark} />
+                <ContactCard name="Lakshmi Shri" role="Office Bearers" isDark={isDark} />
+                <ContactCard name="Kamalika" role="Office Bearers" isDark={isDark} />
               </div>
             </div>
 
@@ -126,7 +126,7 @@ const Contact = () => {
 const ContactCard = ({ name, role, isDark }) => (
   <div className={`flex items-center justify-between p-4 rounded-xl border transition-all hover:scale-[1.02] ${isDark ? 'bg-white/5 border-white/10 hover:bg-rose-900/20 hover:border-rose-500/30' : 'bg-white border-gray-100 hover:shadow-md'}`}>
     <div>
-      <h5 className="font-bold text-sm tracking-wide">{name}</h5>
+      <h5 className="font-bold text-sm uppercase">{name}</h5>
       <p className={`text-xs uppercase tracking-wider font-bold ${isDark ? 'text-rose-300/70' : 'text-rose-600/70'}`}>{role}</p>
     </div>
   </div>

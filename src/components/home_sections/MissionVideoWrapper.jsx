@@ -61,5 +61,4 @@ const MissionVideoWrapper = () => {
         </>
     );
 };
-
 export default MissionVideoWrapper;

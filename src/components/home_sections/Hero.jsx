@@ -1,5 +1,5 @@
 import React from 'react';
-import { useOutletContext } from 'react-router-dom';
+import { useOutletContext, Link } from 'react-router-dom';
 import Countdown from './Countdown';
 
 const HERO_BG = "https://lh3.googleusercontent.com/aida-public/AB6AXuBGKMeJjd8Ny6E0nslFciPUkWRDeLy0CJKK1NPccHn47_XnKOF8uziQORUhFmy_rxeCqfLSwGYXUlhuWirfM_FJk1nRNbSN5TyNatopMUg_n_5BI43Q2VCCo9uP_Rhb5mGDbCw6SykM_RGTpZB9BATBie_TU-oNJ5s3JwaBksclwBPZN8srEXSc_Tk4ktqW9wFQ9yK-e7kGzTCzYjRWHQxgNjHICa2tcv4s1adowjpkNQWlPJo7PuKPXmqJyxr8T6mtU4BLtoxvIok";
@@ -50,7 +50,7 @@ const Hero = () => {
 
                     {/* Symposium Subtitle */}
                     <p className={`mt-6 text-sm md:text-base lg:text-lg font-light tracking-[0.3em] uppercase opacity-70 transition-colors duration-500 ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                        National Level Symposium
+                        3rd National Level Symposium
                     </p>
                 </div>
 
@@ -59,8 +59,18 @@ const Hero = () => {
                     Where Innovation Meets Infinity
                 </p>
 
+                {/* EVENT BUTTON */}
+                <div className="mt-12">
+                    <Link to="/events" className={`inline-block px-10 py-4 rounded-full font-display font-bold tracking-[0.15em] uppercase text-sm md:text-base transition-all duration-300 hover:scale-105 active:scale-95 ${isDark
+                        ? 'bg-gradient-to-r from-rose-900/40 to-red-900/40 border border-rose-500/50 text-white hover:bg-rose-900/60 hover:border-rose-400 shadow-[0_0_20px_rgba(225,29,72,0.2)] hover:shadow-[0_0_35px_rgba(225,29,72,0.5)] backdrop-blur-sm'
+                        : 'bg-white border border-rose-200 text-rose-700 hover:bg-rose-50 hover:border-rose-300 shadow-lg hover:shadow-xl'
+                        }`}>
+                        Explore Events
+                    </Link>
+                </div>
+
                 {/* Launch Countdown */}
-                <div className="flex flex-col gap-6 justify-center items-center mt-20 opacity-90 hover:opacity-100 transition-opacity">
+                <div className="flex flex-col gap-6 justify-center items-center mt-16 opacity-90 hover:opacity-100 transition-opacity">
                     {/* Event Date */}
                     <span className={`text-xs md:text-sm font-display font-medium tracking-[0.2em] transition-colors duration-500 ${isDark ? 'text-gray-200' : 'text-gray-800'}`}>
                         February 9, 2026

@@ -1,4 +1,6 @@
 import React from 'react';
+import logoDark from '../../assets/avinyaa-logo-new.png';
+import logoLight from '../../assets/avinyaa-logo-light.png';
 
 const Navbar = ({ scrolled, isDark, toggleTheme }) => {
     const handleThemeToggle = (e) => {
@@ -35,16 +37,14 @@ const Navbar = ({ scrolled, isDark, toggleTheme }) => {
             );
         });
     };
-
     return (
         <>
             <nav className={`fixed w-full z-50 transition-all duration-700 ${scrolled ? (isDark ? 'bg-[#8B0000]/90' : 'bg-[#B22222]/90') + ' backdrop-blur-md py-4 border-b ' + (isDark ? 'border-white/10' : 'border-black/10') : 'bg-transparent py-8'}`}>
                 <div className="max-w-7xl mx-auto px-8 md:px-16 flex items-center justify-between">
                     {/* Logo Section */}
                     <div className="flex items-center gap-4 group cursor-pointer">
-                        {/* Keeping the image path as requested, though user might need to ensure the file exists */}
                         <img
-                            src="/avinyaa-logo-new.png"
+                            src={isDark ? logoDark : logoLight}
                             alt="Avinyaa '26 Logo"
                             className="h-12 w-auto object-contain"
                         />
