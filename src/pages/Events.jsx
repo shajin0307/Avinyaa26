@@ -323,12 +323,12 @@ REQUIREMENTS:
         </motion.div>
 
         <motion.h1
-          className="text-6xl md:text-8xl font-black tracking-tight mb-8 leading-[1.0] overflow-hidden"
+          className="text-5xl md:text-8xl font-black tracking-tight mb-8 leading-[1.0] overflow-hidden"
           variants={containerVariants}
           initial="hidden"
           animate="visible"
         >
-          <div className="flex justify-center gap-4 flex-wrap">
+          <div className="flex justify-center gap-1 md:gap-4 flex-nowrap">
             {"AVINYAA".split('').map((char, index) => (
               <motion.span key={index} variants={wordVariants} className={`inline-block ${isDark ? 'text-white' : 'text-gray-900'}`}>{char}</motion.span>
             ))}
