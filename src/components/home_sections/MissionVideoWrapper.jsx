@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { Quote } from 'lucide-react';
+import collegeVideoPhone from '../../assets/college video phone.mp4';
 import collegeVideo from '../../assets/college video.mp4';
 
 const MissionVideoWrapper = () => {
@@ -33,6 +34,7 @@ const MissionVideoWrapper = () => {
                             muted
                             playsInline
                         >
+                            <source src={collegeVideoPhone} type="video/mp4" media="(max-width: 768px)" />
                             <source src={collegeVideo} type="video/mp4" />
                         </video>
                     </motion.div>
