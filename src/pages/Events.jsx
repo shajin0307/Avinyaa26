@@ -88,7 +88,7 @@ Rules:
       team: 'Individual',
       image: retroDecode,
       icon: <Code2 className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe75DrfRSPNR2qDFsQ50eYZdr-_X5FhFD7TmETTyvgFHCfC-A/viewform',
+      registerLink: 'https://forms.gle/JopXcQuer8ajdZn28',
       accent: 'from-pink-600 to-rose-900',
       venue: 'AI103'
     },
@@ -100,7 +100,7 @@ Rules:
       fullDesc: `PromptVerse involves three non-elimination rounds testing creativity and prompt engineering skills.
 
 Rounds:
-1. CoT Gravity: Connect a seed word with a forbidden "gravity" word using logic/synonyms (Max 5 prompts).
+1. CoT Gravity: Connect a seed word with a forbidden "gravity" word using logic/synonyms (Max 3 prompts).
 2. Spin The Wheel: Generate media based on randomized Domain, Style, and Constraint wheels (30 mins).
 3. Stitch The UI: Create a UI design using prompts in Google Stitch for an assigned domain.
 
@@ -121,7 +121,7 @@ Rules:
       team: 'Max 3 Members',
       image: promptVerse,
       icon: <Cpu className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/e/1FAIpQLSdhEl0RhoMrO9aZaO1VNc-Hn_AJ6gohGetuwcedX1EZ6XloaQ/viewform',
+      registerLink: 'https://forms.gle/TpW4YQTQod3Asajh9',
       accent: 'from-fuchsia-600 to-purple-900',
       venue: 'AI205'
     },
@@ -157,7 +157,7 @@ Rules & Regulations:
       team: 'Teams of 2-4',
       image: mindMatrix,
       icon: <Bot className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/1pvzTJ4XwNGtTqsgZ7EC7vTH-Y0IBPemKy8x1UJ6e1UM/viewform?edit_requested=true',
+      registerLink: 'https://forms.gle/bPbL8qoy8g8APhdw5',
       accent: 'from-amber-500 to-orange-700',
       venue: 'AI102'
     },
@@ -204,7 +204,7 @@ Judging Criteria:
       team: 'Max 3 Members',
       image: innoPaperx,
       icon: <ShieldCheck className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/1PJ4jKQj8kSrB_JElISd9nXqfn5wkn2j55ajQs9Nj-o4/viewform?edit_requested=true',
+      registerLink: 'https://forms.gle/wTmbP5Rxt4ZEaxmm7',
       accent: 'from-slate-400 to-slate-600',
       venue: 'AI204'
     },
@@ -232,7 +232,7 @@ RULES:
       team: 'Teams of 2',
       image: havoc,
       icon: <Dumbbell className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/1V2_l_zhrJFFpotI31D5mvzXAxTvfdTFsp4dpK7oq9rA/viewform?edit_requested=true',
+      registerLink: 'https://forms.gle/w6oUfcioW1wMMGj8A',
       accent: 'from-red-600 to-red-900',
       venue: 'AIML Seminar Hall'
     },
@@ -265,7 +265,7 @@ REQUIREMENTS:
       team: '5 Players',
       image: valorant,
       icon: <Gamepad2 className="w-6 h-6" />,
-      registerLink: 'https://docs.google.com/forms/d/1EW3Io66WNvds-QSviNAHJ72DZL8Cjm3V2F_jmMRXQgA/viewform?edit_requested=true',
+      registerLink: 'https://forms.gle/uiZxHJZBmWFsoNUt5',
       accent: 'from-rose-600 to-purple-900',
       venue: 'Computer Lab'
     }

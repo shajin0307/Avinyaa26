@@ -60,7 +60,7 @@ const Footer = () => {
                     >
                       Mrs. Remya Rose S
                     </a>
-                    <span className="text-gray-300 text-l">Associate Professor</span>
+                    <span className="text-gray-300 text-l">Assistant Professor</span>
                   </li>
 
                   <li>
@@ -72,7 +72,7 @@ const Footer = () => {
                     >
                       Mr. N Sathish Kumar
                     </a>
-                    <span className="text-gray-300 text-l">Associate Professor</span>
+                    <span className="text-gray-300 text-l">Assistant Professor</span>
                   </li>
                 </ul>
               </div>
