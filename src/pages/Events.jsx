@@ -319,7 +319,7 @@ REQUIREMENTS:
           className={`inline-flex items-center gap-2 px-4 py-2 rounded-full border mb-8 ${isDark ? 'border-rose-400/30 bg-rose-900/80 shadow-[0_0_20px_rgba(225,29,72,0.2)]' : 'border-rose-200 bg-white/90 shadow-sm'}`}
         >
           <Flag className={`w-4 h-4 ${isDark ? 'text-rose-300' : 'text-rose-600'}`} />
-          <span className={`text-xs font-bold tracking-[0.25em] uppercase ${isDark ? 'text-rose-100' : 'text-rose-900'}`}>3rd National Level Symposium</span>
+          <span className={`text-xs font-bold tracking-[0.25em] uppercase ${isDark ? 'text-rose-100' : 'text-rose-900'}`}>4th National Level Symposium</span>
         </motion.div>
 
         <motion.h1
